@@ -13,5 +13,6 @@ exports.wechatConfig = {
 };
 
 exports.redisConfig = {
+  host: 'localhost',
   port: '6379',
 };

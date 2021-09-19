@@ -1,4 +1,4 @@
-FROM nginx
+FROM node
 COPY . /app
 WORKDIR /app
 ENV TZ="Asia/Shanghai"
@@ -6,5 +6,5 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN npm config set registry http://registry.npm.taobao.org
 RUN npm install
 EXPOSE 3000
-CMD ["npm", "run" , "dev"]
+CMD ["npm", "run" , "start"]
 
