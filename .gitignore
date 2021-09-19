@@ -1,0 +1,4 @@
+node_modules
+sunny
+*.local
+local.*
