@@ -6,7 +6,7 @@ node() {
     }
     stage('测试') {
         // 注释
-        echo 'test'
+        echo 'test1'
     }
     stage('部署') {
         // 注释
