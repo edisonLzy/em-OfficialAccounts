@@ -1,5 +1,5 @@
 node() {
-    stage('构建') {
+    stage('构建1') {
         //  注释
         checkout scm
         echo 'build'
